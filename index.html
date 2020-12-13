@@ -5,6 +5,6 @@ file_attr: podcast_attributes.html
 ---
 <div class="blurb">
 	{% for podcast in site.podcasts %}
-		{% include {{ page.file_attr }} title=podcast.name start_year=podcast.start_year description=podcast.content %}
+		{% include {{ page.file_attr }} title=podcast.name start_year=podcast.start_year description=podcast.content logo=podcast.logo size=200 %}
 	{% endfor %}
 </div><!-- /.blurb -->
