@@ -1,3 +1,5 @@
 collections:
   podcasts:
     output: true
+  hosts:
+    output: true
