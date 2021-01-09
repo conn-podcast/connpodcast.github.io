@@ -2,18 +2,19 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
+			<meta charset="utf-8">
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/assets/css/nav.css">
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/conn-friends">conn:friends</a></li>
-	        		<li><a href="/conn-tech">conn:tech</a></li>
-	    		</ul>
-			</nav>
+			<img class="center" src="/assets/img/logo/connpodcast.png" alt="logo conn:podcast" height="100px">
+			<div class="topnav">
+				<!-- <div class="topnav-centered"> -->
+						<a href="/">Home</a>
+						<a href="/about">About Hosts</a>
+				<!-- </div> -->
+			</div>
 			<div class="container">
 			
 			{{ content }}
@@ -21,8 +22,10 @@
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
-	        		<!-- <li><a href="mailto:hankquinlanhub@gmail.com">email</a></li> -->
-	        		<!-- <li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li> -->
+					<li><a href="mailto:connfriendspod@gmail.com">Contact us</a></li>
+					<li><a href="https://www.instagram.com/conn.podcast/">Instagram</a></li>
+					<li><a href="https://anchor.fm/conn-friends">Anchor Page conn:friends</a></li>
+					<li><a href="https://anchor.fm/conntech">Anchor Page conn:tech</a></li>
 				</ul>
 			</footer>
 		</body>
