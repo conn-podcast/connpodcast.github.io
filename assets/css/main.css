@@ -31,7 +31,7 @@ h1 {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.1em;
     line-height: 1.4em;
     color: #333;
 }
@@ -59,10 +59,17 @@ ul.posts li {
 }
 
 .column {
-    text-align: center;
     float: left;
-    width: 50%;
     margin: 10px;
+    flex: 50%;
+}
+
+.column.center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
 }
 
 .row:after {
