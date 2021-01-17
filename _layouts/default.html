@@ -9,33 +9,14 @@
 			<link rel="stylesheet" type="text/css" href="/assets/css/nav.css">
 		</head>
 		<body>
-			<img class="center" src="/assets/img/logo/connpodcast.png" alt="logo conn:podcast" height="70%">
-			<div class="topnav">
-				<!-- <div class="topnav-centered"> -->
-						<a href="/">Home</a>
-						<a href="/about">About Hosts</a>
-				<!-- </div> -->
-			</div>
+			{% include nav.html %}
 			<div class="container">
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
 			<footer>
-				<div class="row">
-					<div style="flex: 75%;">
-						<ul>
-							<li><a href="mailto:connfriendspod@gmail.com">Contact us</a></li>
-							<li><a href="https://forms.gle/QWmS9ed6iHLbB8rv9">Feedback form</a></li>
-							<li><a href="https://www.instagram.com/conn.podcast/">Instagram</a></li>
-							<li><a href="https://anchor.fm/conn-friends">Anchor conn:friends</a></li>
-							<li><a href="https://anchor.fm/conntech">Anchor conn:tech</a></li>
-						</ul>
-					</div>
-					<div style="flex: 25%;">
-						<h4 style="text-align: right;">by @anggimharahap & @enreina - 2021</h4>
-					</div>
-				</div>
+				{% include footer.html %}
 			</footer>
 		</body>
 	</html>

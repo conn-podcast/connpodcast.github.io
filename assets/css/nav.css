@@ -24,25 +24,18 @@
     color: white;
 }
   
-.topnav-centered a {
+/* .topnav.centered a {
     float: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
   
 /* Responsive navigation menu (for mobile devices) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .topnav a {
         float: none;
         display: block;
-    }
-
-    .topnav-centered a {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
     }
 }
